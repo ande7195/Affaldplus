@@ -1,0 +1,25 @@
+#recycle{
+    width: 256px;
+    height: 256px;
+
+
+}
+#recycleheader{
+    color: white;
+}
+body{
+    background-color: #80b300;
+    text-align: center;
+}
+a{
+    color: black;
+    margin: 10px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table,th,td{
+    border: 1px solid black;
+}
