@@ -5,21 +5,62 @@
 
 }
 #recycleheader{
-    color: white;
+    color: green;
 }
 body{
-    background-color: #80b300;
+    background-image: url("Img/Grass.jpeg");
     text-align: center;
+    background-size: cover;
 }
 a{
     color: black;
     margin: 10px;
 }
+
 table{
     margin-left: auto;
     margin-right: auto;
 
 }
-table,th,td{
-    border: 1px solid black;
+
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+
+}
+
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+div{
+    margin-right: 35%;
+    margin-left: 35%;
+    background-color: white;
+}
+.salg{
+    width: 600px;
+    height: 350px;
+}
+.traediv{
+    margin-left: 31%;
+    margin-right: 31%;
+    background-color: white;
+}
+p{
+    font-size: 20px;
 }

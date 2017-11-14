@@ -7,22 +7,41 @@
     <script src="MyScript.js">
 
     </script>
+    <style>
+        h1{
+            color: #4CAF50;
+        }
+        div{
+            margin-left: 26%;
+            margin-right: 26%;
+
+        }
+        td{
+            border: 1px solid black;
+        }
+
+    </style>
 </head>
 <body>
+<div>
 <table>
-    <tr>
-        <td></td>
-        <td><h1>Varer til salg i Øjeblikket</h1></td>
-    </tr>
+    <img src="Img/RecycleAgain.png">
+    <h1>Varer til salg i Øjeblikket</h1>
+    <table>
+
     <tr>
         <td>
             <p>Stort flot plankebord lavet af genbrugsmaterialer</p></td>
-        <td><img src="Img/Woodtable.JPG"></td>
-        <td><p>nuvæende bud er på 1000</p></td>
+        <tr>
+        <td><img class="salg" src="Img/plankebord.png"></td>
+        <td><p>nuværende bud er på 1000</p></td>
         <td><input type="number" id="budtal">
             <button type="button" onclick="bud()">Byd</button></td>
+    </tr>
 
     </tr>
 </table>
+</table>
+</div>
 </body>
 </html>

@@ -7,12 +7,41 @@
     <script src="MyScript.js">
 
     </script>
+    <style>
+        a{
+            font-size: 50px;
+            color: white;
+        }
+        div{
+            margin-right: 33%;
+            margin-left: 33%;
+        }
+    </style>
 </head>
 <body>
-<img src="Img/RecycleAgain.png" id="recycle">
-<h1 id="recycleheader">Recycle Again</h1>
-<a href="raavare.html">råmaterialer</a>
+<div>
+<table>
+    <tr>
+        <td></td>
+        <td><img src="Img/RecycleAgain.png" id="recycle"></td>
 
-
+    </tr>
+    <tr>
+        <td></td>
+        <td><h1 id="recycleheader">Recycle Again</h1></td>
+    </tr>
+    <tr>
+        <td>
+            <input class="button" type="button" value="Råmaterialer" onclick="window.location.href='raavare.html'">
+        </td>
+        <td>
+            <input class="button" type="button" value="Køb en vare" onclick="window.location.href='varekoeb.html'">
+        </td>
+        <td>
+            <input class="button" type="button" value="Sælg en vare" onclick="window.location.href='varesalg.html'">
+        </td>
+    </tr>
+</table>
+</div>
 </body>
 </html>
